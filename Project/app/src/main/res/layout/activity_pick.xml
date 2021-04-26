@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".one_five_Activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최근에 찜한 식당이름"
+        android:textColor="#ffffff"
+        android:background="#FFCC33"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:id="@+id/nameInPick"/>
+    <fragment
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapInPick"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="대표메뉴"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="불고기버거"
+        android:textColor="#ffffff"
+        android:background="#FFCC33"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/menuInPick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="식사 시 예상 섭취 칼로리"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="500kcal"
+        android:textColor="#ffffff"
+        android:background="#FFCC33"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/expect_calorieInPick"/>
+</LinearLayout>
+    <!--<View
+        android:layout_width="200px"
+        android:layout_height="2px"
+        android:background="#CCCCCC"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />-->

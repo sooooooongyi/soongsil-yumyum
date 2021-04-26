@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="식사 후 평점을 입력해주세요!"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#FFCC33"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="20dp"/>
+
+    <RadioGroup android:id="@+id/radioGroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton android:layout_weight="1"
+            android:text="1점"
+            android:id="@+id/rg_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton android:layout_weight="1"
+            android:text="2점"
+            android:id="@+id/rg_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:layout_weight="1"
+            android:text="3점"
+            android:id="@+id/rg_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:layout_weight="1"
+            android:text="4점"
+            android:id="@+id/rg_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:layout_weight="1"
+            android:text="5점"
+            android:id="@+id/rg_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="등록"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#FFCC33"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_done"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(평점 미선택 시 반영되지 않습니다)"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

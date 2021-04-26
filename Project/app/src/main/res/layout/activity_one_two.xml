@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+    <TableRow>
+        <Button
+            android:id="@+id/btn_flex"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="flex" />
+
+        <Button
+            android:id="@+id/btn_cost"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="가성비" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btn_instar"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="인스타감성" />
+
+        <Button
+            android:id="@+id/btn_some"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="썸타는 날" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btn_alone"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="혼밥" />
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="#FFCC33"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:text="시험끝나고" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:src="@drawable/calorie_image"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/eat_now_or_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="방금 먹은 칼로리"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/calculateCalorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:background="#FFCC33"
+        android:text="권장 섭취량만큼 드셨습니다!"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
